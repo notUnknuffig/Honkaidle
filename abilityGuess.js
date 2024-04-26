@@ -45,7 +45,7 @@ try {
                 element_cd_in.innerHTML = element_cd_var - atempts;
                 if (element_cd_var - atempts == 0) {
                     element_cd.style.display = 'none'
-                    element_url = "abilitys/"+ char + "_" + charDataName(abilitys[char][a_type]) +".png"
+                    element_url = "Abilitys/"+ char + "_" + charDataName(abilitys[char][a_type]) +".png"
                     element.src = element_url
                     element.style.display = 'block'
                 }
