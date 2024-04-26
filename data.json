@@ -1,0 +1,402 @@
+data = {
+    "acheron": {
+        "name": "Acheron",
+        "path": "Nihility",
+        "element": "Lightning",
+        "release": "2.1",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "argenti": {
+        "name": "Argenti",
+        "path": "Erudition",
+        "element": "Physical",
+        "release": "1.5",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "arlan": {
+        "name": "Arlan",
+        "path": "Destruction",
+        "element": "Lightning",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "asta": {
+        "name": "Asta",
+        "path": "Harmony",
+        "element": "Fire",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "aventurine": {
+        "name": "Aventurine",
+        "path": "Preservation",
+        "element": "Imaginary",
+        "release": "2.1",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "bailu": {
+        "name": "Bailu",
+        "path": "Abundance",
+        "element": "Lightning",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "black_swan": {
+        "name": "Black Swan",
+        "path": "Nihility",
+        "element": "Wind",
+        "release": "2.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "blade": {
+        "name": "Blade",
+        "path": "Destruction",
+        "element": "Wind",
+        "release": "1.2",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "bronya": {
+        "name": "Bronya",
+        "path": "Harmony",
+        "element": "Wind",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "clara": {
+        "name": "Clara",
+        "path": "Destruction",
+        "element": "Physical",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "dan_heng": {
+        "name": "Dan Heng",
+        "path": "Hunt",
+        "element": "Wind",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "dan_heng_imbibitor_lunae": {
+        "name": "Dan Heng • Imbibitor Lunae",
+        "path": "Destruction",
+        "element": "Imaginary",
+        "release": "1.3",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "dr_ratio": {
+        "name": "Dr. Ratio",
+        "path": "Hunt",
+        "element": "Imaginary",
+        "release": "1.6",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "fu_xuan": {
+        "name": "Fu Xuan",
+        "path": "Preservation",
+        "element": "Quantum",
+        "release": "1.3",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "gallagher": {
+        "name": "Gallagher",
+        "path": "Abundance",
+        "element": "Fire",
+        "release": "2.1",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "gepard": {
+        "name": "Gepard",
+        "path": "Preservation",
+        "element": "Ice",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "guinaifen": {
+        "name": "Guinaifen",
+        "path": "Nihility",
+        "element": "Fire",
+        "release": "1.4",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "hanya": {
+        "name": "Hanya",
+        "path": "Harmony",
+        "element": "Physical",
+        "release": "1.5",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "herta": {
+        "name": "Herta",
+        "path": "Erudition",
+        "element": "Ice",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "himeko": {
+        "name": "Himeko",
+        "path": "Erudition",
+        "element": "Fire",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "hook": {
+        "name": "Hook",
+        "path": "Destruction",
+        "element": "Fire",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "huohuo": {
+        "name": "Huohuo",
+        "path": "Abundance",
+        "element": "Wind",
+        "release": "1.5",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "jingliu": {
+        "name": "Jingliu",
+        "path": "Destruction",
+        "element": "Ice",
+        "release": "1.4",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "jing_yuan": {
+        "name": "Jing Yuan",
+        "path": "Erudition",
+        "element": "Lightning",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "kafka": {
+        "name": "Kafka",
+        "path": "Nihility",
+        "element": "Lightning",
+        "release": "1.2",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "luka": {
+        "name": "Luka",
+        "path": "Nihility",
+        "element": "Physical",
+        "release": "1.2",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "luocha": {
+        "name": "Luocha",
+        "path": "Abundance",
+        "element": "Imaginary",
+        "release": "1.1",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "lynx": {
+        "name": "Lynx",
+        "path": "Abundance",
+        "element": "Quantum",
+        "release": "1.3",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "march_7th": {
+        "name": "March 7th",
+        "path": "Preservation",
+        "element": "Ice",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "misha": {
+        "name": "Misha",
+        "path": "Destruction",
+        "element": "Ice",
+        "release": "2.0",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "natasha": {
+        "name": "Natasha",
+        "path": "Abundance",
+        "element": "Physical",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "pela": {
+        "name": "Pela",
+        "path": "Nihility",
+        "element": "Ice",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "qingque": {
+        "name": "Qingque",
+        "path": "Erudition",
+        "element": "Quantum",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "ruan_mei": {
+        "name": "Ruan Mei",
+        "path": "Harmony",
+        "element": "Ice",
+        "release": "1.6",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "sampo": {
+        "name": "Sampo",
+        "path": "Nihility",
+        "element": "Wind",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Male"
+    },
+    "seele": {
+        "name": "Seele",
+        "path": "Hunt",
+        "element": "Quantum",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "serval": {
+        "name": "Serval",
+        "path": "Erudition",
+        "element": "Lightning",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "silver_wolf": {
+        "name": "Silver Wolf",
+        "path": "Nihility",
+        "element": "Quantum",
+        "release": "1.1",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "sparkle": {
+        "name": "Sparkle",
+        "path": "Harmony",
+        "element": "Quantum",
+        "release": "2.0",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "sushang": {
+        "name": "Sushang",
+        "path": "Hunt",
+        "element": "Physical",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "tingyun": {
+        "name": "Tingyun",
+        "path": "Harmony",
+        "element": "Lightning",
+        "release": "1.0",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "topaz_and_numby": {
+        "name": "Topaz and Numby",
+        "path": "Hunt",
+        "element": "Fire",
+        "release": "1.4",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "welt": {
+        "name": "Welt",
+        "path": "Nihility",
+        "element": "Imaginary",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "xueyi": {
+        "name": "Xueyi",
+        "path": "Destruction",
+        "element": "Quantum",
+        "release": "1.6",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "yanqing": {
+        "name": "Yanqing",
+        "path": "Hunt",
+        "element": "Ice",
+        "release": "1.0",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "yukong": {
+        "name": "Yukong",
+        "path": "Harmony",
+        "element": "Imaginary",
+        "release": "1.1",
+        "rarity": "4_star",
+        "gender": "Female"
+    },
+    "boothill": {
+        "name": "Boothill",
+        "path": "Hunt",
+        "element": "Physical",
+        "release": "2.2",
+        "rarity": "5_star",
+        "gender": "Male"
+    },
+    "robin": {
+        "name": "Robin",
+        "path": "Harmony",
+        "element": "Physical",
+        "release": "2.2",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "jade": {
+        "name": "Jade",
+        "path": "Erudition",
+        "element": "Quantum",
+        "release": "2.3",
+        "rarity": "5_star",
+        "gender": "Female"
+    },
+    "firefly": {
+        "name": "Firefly",
+        "path": "Destruction",
+        "element": "Fire",
+        "release": "2.3",
+        "rarity": "5_star",
+        "gender": "Female"
+    }
+}
