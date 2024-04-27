@@ -102,7 +102,7 @@ try {
 
                     atempts += 1;
                     ul.appendChild(li);
-                    li.scrollIntoView();
+                    ul.scrollTop = ul.scrollHeight;
                     if (data[input]["name"] == select_character["name"]) {
                         inputField.placeholder = "You Won!";
                         streak = parseInt(localStorage.getItem("char_streak"))

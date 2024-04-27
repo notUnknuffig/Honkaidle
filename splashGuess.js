@@ -6,6 +6,7 @@ try {
 } catch {
     const characterNames = Object.keys(data);
     const characterList = document.getElementById("characters");
+    characterNames.splice(-4)
     characterNames.sort().forEach(char_name => {
         var opt_name = document.createElement("option");
         display_name = data[char_name]["name"];
@@ -47,7 +48,7 @@ try {
                     atempts += 1;
                     if(atempts < 17) splash.style.setProperty('--img-scale', 18 * (0.8 ** atempts));
                     ul.appendChild(li);
-                    li.scrollIntoView();
+                    ul.scrollTop = ul.scrollHeight;
                     if (data[input]["name"] == select_character["name"]) {
                         inputField.placeholder = "You Won!";
                         splash.style.setProperty('--img-scale', 0.5);

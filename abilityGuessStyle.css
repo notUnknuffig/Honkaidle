@@ -8,7 +8,7 @@
     --clr-lighter: #9a9a9af1;
 }
 body::before {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     content: '';
     width: 100%;
@@ -133,7 +133,7 @@ body {
     text-decoration: none;
     padding: 20px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #05050596;
 }
 
 .element-countdown, .img-countdown {
@@ -217,4 +217,16 @@ body {
 
 #button-skill {
     border-bottom: 1px solid black;
+}
+
+@media (max-width:700px) {
+    body {
+        overflow: hidden;
+    }
+    .content {
+        width: 100%;
+    }
+    .link {
+        font-size: 14px;
+    }
 }

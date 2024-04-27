@@ -66,7 +66,7 @@ try {
                 }
                 li.appendChild(name)
                 ul.appendChild(li);
-                li.scrollIntoView();
+                ul.scrollTop = ul.scrollHeight;
                 if (input == char) {
                     inputField.removeEventListener('input', guess)
                 }
