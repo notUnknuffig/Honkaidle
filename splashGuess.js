@@ -17,7 +17,7 @@ try {
     select_character = data[characterNames[(Math.floor(Math.random() * characterNames.length))]];
 
     const splash = document.getElementById('splash-image');
-    splash.style.backgroundImage = "url('Splasharts/"+charDataName(select_character["name"])+".png')";
+    splash.style.backgroundImage = "url('Splasharts/"+charDataName(select_character["name"])+".webp')";
     splash.style.setProperty('--x-pos', Math.floor(Math.random()*50)+25);
     splash.style.setProperty('--y-pos', Math.floor(Math.random()*50)+25);
     splash.style.setProperty('--img-scale', 20);
