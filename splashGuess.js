@@ -6,7 +6,7 @@ try {
 } catch {
     const characterNames = Object.keys(data);
     const characterList = document.getElementById("characters");
-    characterNames.splice(-4)
+    characterNames.splice(-3)
     characterNames.sort().forEach(char_name => {
         var opt_name = document.createElement("option");
         display_name = data[char_name]["name"];
@@ -54,6 +54,7 @@ try {
                         splash.style.setProperty('--img-scale', 0.5);
                         splash.style.setProperty('--x-pos', 50);
                         splash.style.setProperty('--y-pos', 50);
+                        document.getElementById("win-screen").style.display = 'block';
                         return inputField.removeEventListener('input', guess);
                     }
                     inputField.placeholder = "Enter Character Name";

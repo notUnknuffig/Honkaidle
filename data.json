@@ -367,14 +367,6 @@ data = {
         "rarity": "4_star",
         "gender": "Female"
     },
-    "boothill": {
-        "name": "Boothill",
-        "path": "Hunt",
-        "element": "Physical",
-        "release": "2.2",
-        "rarity": "5_star",
-        "gender": "Male"
-    },
     "robin": {
         "name": "Robin",
         "path": "Harmony",
@@ -382,6 +374,14 @@ data = {
         "release": "2.2",
         "rarity": "5_star",
         "gender": "Female"
+    },
+    "boothill": {
+        "name": "Boothill",
+        "path": "Hunt",
+        "element": "Physical",
+        "release": "2.2",
+        "rarity": "5_star",
+        "gender": "Male"
     },
     "jade": {
         "name": "Jade",

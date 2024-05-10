@@ -19,7 +19,7 @@ try {
 } catch {
     const characterNames = Object.keys(data);
     const characterList = document.getElementById("characters");
-    characterNames.splice(-4)
+    characterNames.splice(-3)
     characterNames.sort().forEach(char_name => {
         var opt_name = document.createElement("option");
         display_name = data[char_name]["name"];
@@ -28,7 +28,7 @@ try {
         characterList.appendChild(opt_name);
     });
     console.log(characterNames[characterNames.length - 1])
-    var char = charDataName(characterNames[(Math.floor(Math.random() * (characterNames.length - 1)))]);
+    var char = charDataName(characterNames[(Math.floor(Math.random() * (characterNames.length)))]);
     var a_type = Math.floor(Math.random() * abilitys[char].length);
     select_ability = abilitys[char][a_type];
     abilityName.innerHTML = select_ability;
@@ -68,6 +68,8 @@ try {
                 ul.appendChild(li);
                 ul.scrollTop = ul.scrollHeight;
                 if (input == char) {
+                    inputField.placeholder = "You Won!";
+                    document.getElementById("win-screen").style.display = 'block';
                     inputField.removeEventListener('input', guess)
                 }
             }
